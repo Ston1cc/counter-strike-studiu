@@ -58,6 +58,10 @@ img {
     height: auto;
 }
 
+video, iframe {
+    max-width: 100%;
+}
+
 article {
     background-color: #2a2a2a;
     border: 1px solid #444;
