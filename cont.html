@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Counter-Strike - Feedback</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Feedback</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Acasă</a></li>
+                <li><a href="istorie.html">Istorie</a></li>
+                <li><a href="cont.html">Feedback</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <h2>Care versiune este preferata ta?</h2>
+            <p>Completează formularul de mai jos.</p>
+
+            <form action="#" method="get">
+                <label for="nume">Numele tău:</label>
+                <input type="text" id="nume" name="nume">
+
+                <label for="versiune">Versiunea preferată:</label>
+                <select id="versiune" name="versiune">
+                    <option>Counter-Strike 1.6</option>
+                    <option>Counter-Strike: Source</option>
+                    <option>Counter-Strike: Global Offensive</option>
+                    <option>Counter-Strike 2</option>
+                </select>
+
+                <p>Nota ta:</p>
+                <input type="radio" id="n1" name="nota" value="1"><label for="n1">1</label>
+                <input type="radio" id="n2" name="nota" value="2"><label for="n2">2</label>
+                <input type="radio" id="n3" name="nota" value="3"><label for="n3">3</label>
+                <input type="radio" id="n4" name="nota" value="4"><label for="n4">4</label>
+                <input type="radio" id="n5" name="nota" value="5"><label for="n5">5</label>
+
+                <label for="mesaj">Ce îți place cel mai mult?</label>
+                <textarea id="mesaj" name="mesaj" rows="4"></textarea>
+
+                <button type="submit">Trimite</button>
+            </form>
+        </section>
+    </main>
+</body>
+</html>
